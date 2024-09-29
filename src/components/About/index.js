@@ -24,7 +24,6 @@ const About = () => {
                         idx={15}
                     />
                 </h1>
-<<<<<<< HEAD
                 <p>I am Eero Ojanen, a 24-year-old fourth-year Information Technology student at Vaasa University of Applied Sciences. 
                     I am currently seeking an internship and focusing on honing my skills in software development and cloud computing
                 </p>
@@ -33,15 +32,6 @@ const About = () => {
                 </p>
                 <p>My goals is to pursue a career in software engineering, where I can contribute to building robust and scalable applications.
                 </p>
-=======
-                <p>Yada yada yada tää on vaan demo tekstiä mitä keksin tähän kunnes oon saanu koko koodin tehtyä
-                    siihen saakka tää saa olla tällänen
-                </p>
-                <p>Imen denssii ku viimestä päivää ja lempipuuhaani on denssirottien kuivaaminen paperiin ja sen jälkeen 100 kilometrin 
-                    marssi kohti madafakin hätilää siuu
-                </p>
-                <p>Tommi döfää tsemisti ja vois vaikka ostaa uudet kengät sillä välin ku Särkkä varaa itselleen kaksi peflettiä saunaan</p>
->>>>>>> 20cf65bb0ccdd7658f88c99ef9277fe72ec63c70
             </div>
 
             <div className='cv-cont'>
