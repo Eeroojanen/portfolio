@@ -23,6 +23,7 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
+<<<<<<< HEAD
                         Feel free to reach out! You can contact me through the following:
                     </p>
                     <p> 
@@ -33,6 +34,17 @@ const Contact = () => {
                     </p>
                     <p>
                         I am always open to discussing internship opportunities. Looking forward to connecting with you.
+=======
+                        Emmät tiiä jotain shiistii tähän vois yapata you know
+                        ettei näytä ihan dorkalta ku ei lue mitää
+                    </p>
+                    <p>
+                        Sama juttu tähän mitä mä malagas pysyn hiton hyvin himassa 
+                        eiks jees?
+                    </p>
+                    <p>
+                        ORE WA MONKEY D.LUFFY, KAIZOKU OU NI NARU OTOKO DA!
+>>>>>>> 20cf65bb0ccdd7658f88c99ef9277fe72ec63c70
                     </p>
                 </div>
             </div>

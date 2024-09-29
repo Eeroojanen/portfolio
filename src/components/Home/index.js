@@ -2,7 +2,10 @@ import { Link } from "react-router-dom";
 import './index.scss';
 import { useEffect, useState } from "react";
 import AnimatedLetters from "../AnimatedLetters";
+<<<<<<< HEAD
 import Selfie from '../../assets/images/Eero_Selfie.jpg'
+=======
+>>>>>>> 20cf65bb0ccdd7658f88c99ef9277fe72ec63c70
 import Loader from "react-loaders";
 
 const Home = () => {
@@ -36,6 +39,7 @@ const Home = () => {
                 strArray={jobArray}
                 idx={19} />
                 </h1>
+<<<<<<< HEAD
                 <h2>Looking for internship </h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
@@ -43,6 +47,11 @@ const Home = () => {
             <div className='selfie'>
                 <img src={Selfie} alt="Selfie" />
             </div>
+=======
+                <h2>Sponsored by EetuGaasiga </h2>
+                <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+            </div>
+>>>>>>> 20cf65bb0ccdd7658f88c99ef9277fe72ec63c70
         </div>
         <Loader type="ball-spin-fade-loader" />
         </>
