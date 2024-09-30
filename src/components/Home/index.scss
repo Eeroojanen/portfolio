@@ -18,7 +18,6 @@
         font-weight: 400;
 
         &::before{
-            content: '<h1>';
             font-family: 'La Belle Aurore';
             color: #0dcbf0;
             font-size: 18px;
@@ -29,7 +28,6 @@
         }
 
         &::after{
-            content: '<h1>';
             font-family: 'La Belle Aurore';
             color: #0dcbf0;
             font-size: 18px;
@@ -87,9 +85,9 @@
     }  
     .selfie img{
         position: absolute;
-        right: 5%; /* Adjust position relative to screen size */
+        right: 5%; 
         top: -50px;
-        width: 30vw; /* Set width relative to viewport */
-        height: auto; /* Maintain aspect ratio */
+        width: 30vw; 
+        height: auto; 
         }  
 }
