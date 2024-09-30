@@ -1,4 +1,3 @@
-import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import CV from '../../assets/images/Kopio Eero Ojanen.jpg'
@@ -32,12 +31,12 @@ const About = () => {
                 </p>
                 <p>My goals is to pursue a career in software engineering, where I can contribute to building robust and scalable applications.
                 </p>
+  
+                </div>
             </div>
-
-            <div className='cv-cont'>
-                <img src={CV} alt="Ansioluettelo" />
-            </div>
-        </div>
+        <div className='cv-cont'>
+                    <img src={CV} alt="Ansioluettelo" />
+                </div>
         <Loader type="ball-spin-fade-loader" />
         </>
     )

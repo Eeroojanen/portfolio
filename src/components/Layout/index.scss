@@ -109,18 +109,20 @@
         color: #fff;
       }
     }
-
-    .cv-cont {
-      display: flex;
-      justify-content: flex-end; 
-      position: relative;
-    }
     
-    .cv-cont img {
-      width: 30vw; 
-      height: auto; 
-      margin-right: 2vw; 
-    }
-    
+  }
 
+  .cv-cont {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    opacity: 0;
+    animation: fadeIn 1s forwards; 
+    animation-delay: 1s;
+  }
+  
+  .cv-cont img {
+    width: 30vw;
+    height: auto;
+    margin-right: 2vw;
   }
