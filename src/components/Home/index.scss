@@ -81,13 +81,15 @@
         }
     }
 
+
     .selfie {
-        img {
-          position: absolute;
-          right: 450px;
-          top: 25px;
-          width: 400px;
-          height: 600px; 
-        }
-      }    
+        position: relative;
+    }  
+    .selfie img{
+        position: absolute;
+        right: 5%; /* Adjust position relative to screen size */
+        top: -50px;
+        width: 30vw; /* Set width relative to viewport */
+        height: auto; /* Maintain aspect ratio */
+        }  
 }
