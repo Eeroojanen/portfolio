@@ -113,13 +113,16 @@
     }
 
     .cv-cont {
-      img {
-        position: absolute;
-        left: 1200px;
-        top: 25px;
-        width: 400px;
-        height: 600px; 
-      }
+      display: flex;
+      justify-content: flex-end; 
+      position: relative;
     }
+    
+    .cv-cont img {
+      width: 30vw; 
+      height: auto; 
+      margin-right: 2vw; 
+    }
+    
 
   }
