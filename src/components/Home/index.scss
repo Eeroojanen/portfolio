@@ -1,15 +1,13 @@
-.home-page{
+.home-page {
 
-    .text-zone{
+    .text-zone {
         position: absolute;
         left: 10%;
         top: 50%;
         transform: translateY(-50%);
         width: 40%;
         max-height: 90%;
-
     }
-
 
     .logo1 {
         position: absolute;
@@ -51,24 +49,52 @@
         height: auto;
     }
 
-    h1{
+    @media screen and (max-width: 1024px) {
+        .logo1,
+        .logo2,
+        .logo3,
+        .logo4,
+        .logo5 {
+            top: -60px;
+            width: 40px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .logo1,
+        .logo2,
+        .logo3,
+        .logo4,
+        .logo5 {
+            top: -50px;
+            width: 35px;
+        }
+
+        .logo1 { left: 5%; }
+        .logo2 { left: 25%; }
+        .logo3 { left: 45%; }
+        .logo4 { left: 65%; }
+        .logo5 { left: 85%; }
+    }
+
+    h1 {
         color: #fff;
         font-size: 53px;
         margin: 0;
         font-family: 'Coolvetica';
         font-weight: 400;
 
-        &::before{
+        &::before {
             font-family: 'La Belle Aurore';
             color: #0dcbf0;
             font-size: 18px;
             position: absolute;
             margin-top: -40px;
-             left: 15px;
-             opacity: 0.6;
+            left: 15px;
+            opacity: 0.6;
         }
 
-        &::after{
+        &::after {
             font-family: 'La Belle Aurore';
             color: #0dcbf0;
             font-size: 18px;
@@ -77,10 +103,9 @@
             margin-left: 20px;
             animation: fadeIn 1s 1.7s backwards;
             opacity: 0.6;
-
         }
 
-        img{
+        img {
             width: 32px;
             margin-left: 20px;
             opacity: 0;
@@ -90,7 +115,7 @@
         }
     }
 
-    h2{
+    h2 {
         color: #8d8d8d;
         margin-top: 20px;
         font-weight: 400;
@@ -100,7 +125,7 @@
         animation: fadeIn 1s 1.8s backwards;
     }
 
-    h3{
+    h3 {
         color: #fff;
         margin-top: 20px;
         font-weight: 400;
@@ -109,7 +134,7 @@
         letter-spacing: 3px;
     }
 
-    .flat-button{
+    .flat-button {
         color: #0dcbf0;
         font-size: 13px;
         font-weight: 400;
@@ -123,22 +148,21 @@
         animation: fadeIn 1s 1.8s backwards;
         white-space: nowrap;
 
-        &:hover{
+        &:hover {
             background: #0dcbf0;
             color: #333;
         }
     }
 
-
     .selfie {
         position: relative;
-    }  
-    .selfie img{
+    }
+
+    .selfie img {
         position: absolute;
-        right: 5%; 
+        right: 5%;
         top: -50px;
-        width: 30vw; 
-        height: auto; 
-        }  
-    
+        width: 30vw;
+        height: auto;
+    }
 }
