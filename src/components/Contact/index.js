@@ -1,4 +1,5 @@
 import Loader from 'react-loaders'
+import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState } from 'react';
 
@@ -22,6 +23,7 @@ const Contact = () => {
                         idx={15}
                         />
                     </h1>
+                    <h2>
                     <p>
                         Feel free to reach out! You can contact me through the following:
                     </p>
@@ -34,6 +36,7 @@ const Contact = () => {
                     <p>
                         I am always open to discussing internship opportunities. Looking forward to connecting with you.
                     </p>
+                    </h2>
                 </div>
             </div>
         <Loader type="ball-spin-fade-loader" />

@@ -1,4 +1,5 @@
 import AnimatedLetters from '../AnimatedLetters'
+import './index.scss';
 import { useEffect, useState } from 'react'
 import CV from '../../assets/images/Kopio Eero Ojanen.jpg'
 import Loader from 'react-loaders'
@@ -23,6 +24,7 @@ const About = () => {
                         idx={15}
                     />
                 </h1>
+                <h2>
                 <p>I am Eero Ojanen, a 24-year-old fourth-year Information Technology student at Vaasa University of Applied Sciences. 
                     I am currently seeking an internship and focusing on honing my skills in software development and cloud computing
                 </p>
@@ -31,7 +33,7 @@ const About = () => {
                 </p>
                 <p>My goals is to pursue a career in software engineering, where I can contribute to building robust and scalable applications.
                 </p>
-  
+                </h2>
                 </div>
             </div>
         <div className='cv-cont'>
