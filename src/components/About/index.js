@@ -28,7 +28,7 @@ const About = () => {
                 <p>I am Eero Ojanen, a 24-year-old fourth-year Information Technology student at Vaasa University of Applied Sciences. 
                     I am currently seeking an internship and focusing on honing my skills in software development and cloud computing
                 </p>
-                <p>I have hands-on experience with various programming languages, including Python, C#, Java, React, and JavaScript, as well as tools like Git and Azure DevOps. 
+                <p>I have hands-on experience with various programming languages, including Python, C#, Java, React, and JavaScript, as well as tools like Git and Azure. 
                     As a hobby, I also enjoy video editing using Sony Vegas Pro.
                 </p>
                 <p>My goals is to pursue a career in software engineering, where I can contribute to building robust and scalable applications.

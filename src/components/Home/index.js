@@ -48,9 +48,9 @@ const Home = () => {
                 </h1>
                 <h3>
                 I am proficient in writing code in several programming languages, including Python, C#, Java, React, and JavaScript. 
-                I also have experience using tools like Git and Azure DevOps. 
+                I also have experience using tools like Git and Azure. 
                 </h3>
-                <h2>Looking for internship </h2>
+                <h2></h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
             
