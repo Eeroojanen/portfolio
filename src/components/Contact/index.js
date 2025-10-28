@@ -33,9 +33,6 @@ const Contact = () => {
                     <p> 
                         Phone: +358443355686   
                     </p>
-                    <p>
-                        I am always open to discussing internship opportunities. Looking forward to connecting with you.
-                    </p>
                     </h2>
                 </div>
             </div>
