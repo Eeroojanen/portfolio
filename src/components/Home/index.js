@@ -45,7 +45,7 @@ const Home = () => {
                 idx={19} />
                 </h1>
                 <h3>
-                I’m proficient in several programming languages, including Python, C#, React, and JavaScript. I have hands-on experience working with Git for version control and Azure for cloud-based development. 
+                I’m proficient in several programming languages, including Python, C#, React, and JavaScript. I have hands-on experience with Azure for cloud-based development. 
                 I enjoy building efficient, well-structured software solutions and continuously learning new technologies to improve my skills as a developer.
                 </h3>
                 <h2>Looking for job opportunities</h2>
