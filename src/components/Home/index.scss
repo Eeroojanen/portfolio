@@ -41,20 +41,11 @@
         height: auto;
     }
 
-    .logo5 {
-        position: absolute;
-        top: -80px;
-        left: 27%;
-        width: 50px;
-        height: auto;
-    }
-
     @media screen and (max-width: 1024px) {
         .logo1,
         .logo2,
         .logo3,
-        .logo4,
-        .logo5 {
+        .logo4 {
             top: -60px;
             width: 40px;
         }
@@ -64,8 +55,7 @@
         .logo1,
         .logo2,
         .logo3,
-        .logo4,
-        .logo5 {
+        .logo4 {
             top: -50px;
             width: 35px;
         }
@@ -74,7 +64,6 @@
         .logo2 { left: 25%; }
         .logo3 { left: 45%; }
         .logo4 { left: 65%; }
-        .logo5 { left: 85%; }
     }
 
     h1 {

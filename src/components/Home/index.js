@@ -5,7 +5,6 @@ import AnimatedLetters from "../AnimatedLetters";
 import Selfie from '../../assets/images/Eero_Selfie.jpg'
 import Loader from "react-loaders";
 import CSharp from '../../assets/images/CSharp.png'
-import Java from '../../assets/images/Java.png'
 import JS from '../../assets/images/JS.png'
 import python from '../../assets/images/python.png'
 import React from '../../assets/images/React.png'
@@ -27,10 +26,9 @@ const Home = () => {
         <div className="container home-page">
             <div className="text-zone">
             <img className='logo1' src={CSharp} alt="CSharp" />
-            <img className='logo2' src={Java} alt="Java" />
-            <img className='logo3' src={JS} alt="JS" />
-            <img className='logo4' src={python} alt="python" />
-            <img className='logo5' src={React} alt="React" />
+            <img className='logo2' src={JS} alt="JS" />
+            <img className='logo3' src={python} alt="python" />
+            <img className='logo4' src={React} alt="React" />
                 <h1>
                 <span className={letterClass}>H</span>
                 <span className={`${letterClass} _9`}>i,</span>
@@ -47,8 +45,8 @@ const Home = () => {
                 idx={19} />
                 </h1>
                 <h3>
-                I am proficient in writing code in several programming languages, including Python, C#, Java, React, and JavaScript. 
-                I also have experience using tools like Git and Azure. 
+                I’m proficient in several programming languages, including Python, C#, React, and JavaScript. I have hands-on experience working with Git for version control and Azure for cloud-based development. 
+                I enjoy building efficient, well-structured software solutions and continuously learning new technologies to improve my skills as a developer.
                 </h3>
                 <h2>Looking for job opportunities</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>

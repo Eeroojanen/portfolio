@@ -25,13 +25,14 @@ const About = () => {
                     />
                 </h1>
                 <h2>
-                <p>I am Eero Ojanen, a 24-year-old fourth-year Information Technology student at Vaasa University of Applied Sciences. 
-                    I am currently seeking an internship and focusing on honing my skills in software development and cloud computing
+                <p>I’m Eero Ojanen, a 25-year-old final-year Information Technology student at Vaasa University of Applied Sciences. 
+                    I have completed an internship in Azure cloud development and have continued working as a trainee, 
+                    further developing my expertise in modern cloud technologies and software engineering.
                 </p>
-                <p>I have hands-on experience with various programming languages, including Python, C#, Java, React, and JavaScript, as well as tools like Git and Azure. 
-                    As a hobby, I also enjoy video editing using Sony Vegas Pro.
+                <p>I have hands-on experience with several Azure services, including Azure Functions, Cosmos DB, Blob Storage, and Key Vault, as well as building and integrating REST APIs. Within Azure DevOps, 
+                    I’ve worked extensively with pipelines, Bicep, and YAML to automate and manage infrastructure as code.
                 </p>
-                <p>My goals is to pursue a career in software engineering, where I can contribute to building robust and scalable applications.
+                <p>My technical skill set includes programming languages such as C#, Python, JavaScript, and TypeScript, along with frameworks and technologies like .NET, React, and Node.js.
                 </p>
                 </h2>
                 </div>
